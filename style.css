@@ -77,7 +77,7 @@ section.descricao h2{
 section.descricao h2 > span,
 section.descricao h3 > span
 {
-    color:  #62318e;
+    color:  #000000;
 }
 
 section.descricao h3{
@@ -91,6 +91,7 @@ section.descricao p{
     font-size:20px;
     margin-top:40px;
 }
+
 
 .icons-social{
     margin-top:20px;
