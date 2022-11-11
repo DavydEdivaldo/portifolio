@@ -18,7 +18,7 @@ html,body{
     width:20%;
     height: 100%;
     position: fixed;
-    background-color: #512679;
+    background-color: #000000;
 }
 
 .sidebar-pos{
@@ -31,7 +31,7 @@ html,body{
 
 .img-sidebar img{
     width: 80%;
-    border:8px solid #62318e;
+    border:8px solid #121213;
     border-radius: 50%;
 }
 
@@ -70,14 +70,14 @@ section.descricao{
 }
 
 section.descricao h2{
-    color:#343a40;
+    color:#000000;
     font-size: 46px;
 }
 
 section.descricao h2 > span,
 section.descricao h3 > span
 {
-    color:  #62318e;
+    color:  #000000;
 }
 
 section.descricao h3{
