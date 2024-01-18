@@ -1,2 +1,3 @@
 # portifolio
- Meu portifólio
+ site de portifólio
+em desenvolvimento, faltando implementar a sessão de projetos.
