@@ -33,6 +33,7 @@ html,body{
     width: 80%;
     border:8px solid #62318e;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .menu{
@@ -74,11 +75,6 @@ section.descricao h2{
     font-size: 46px;
 }
 
-section.descricao h2 > span,
-section.descricao h3 > span
-{
-    color:  #62318e;
-}
 
 section.descricao h3{
     margin:15px 0;
