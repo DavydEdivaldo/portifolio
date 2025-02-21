@@ -6,18 +6,54 @@
   <title>Portifolio</title>
   <link rel="stylesheet" href="./css/output.css">
 </head>
+
+
 <body>
-  <header class="fixed top-0 left-0 right-0">
+  <header class=" fixed top-0 left-[50%] right-[50%] bg-transparent">
     <nav class="text-center h-auto">D</nav>
   </header>
-  <section class="flex items-center justify-center ">
-    <div class="relative w-full h-full">
-      <div class="spline">
-        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.67/build/spline-viewer.js"></script>
-        <spline-viewer url="https://prod.spline.design/jjofC4SoDeCglMUw/scene.splinecode"></spline-viewer>
+
+  <section class="relative flex justify-center items-center w-full min-h-screen overflow-hidden">
+    <div class="w-full flex justify-center items-center">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.69/build/spline-viewer.js"></script>
+
+      <spline-viewer style="display: block; width: 100vw; height: 100vh; overflow: hidden;" loading-anim-type="spinner-small-light" url="https://prod.spline.design/LsQKOjAG5mbzVZZ0/scene.splinecode"></spline-viewer>
+
+      <div class="absolute top-[50%] left-[50%] text-center z-10" style="transform: translate(-50%, -50%); ">
+        <h1 class="fonte-perso ent-anmd" style="color: #bababa; transform: translate(-0%); opacity: 1;">
+          Davyd E. Silva
+        </h1>
+        <p class="ent-anmd2" style="color: #efefef; transform: translate(-0%); opacity: 1;">Front-end develop</p>
       </div>
     </div>
   </section>
-  <div class="bg-[#310b2b] w-full h-[2px] "></div>
+
+  <div id="linha" class="bg-[#20082a] shadow-md w-full h-[2px]"></div>
+
+  <div class="grid grid-cols-2 gap-2 text-[#e8e8e8] place-items-center responsive-div1  w-full">
+    <div class="text-center mt-2 w-[60%]">
+      <h1>Olá, meu nome é Davyd, Web Designer e Front-End Developer!</h1>
+      <h3 class="text-[15px] mt-1 font-all-perso">
+        Com uma paixão por design e desenvolvimento web, eu crio experiências digitais inovadoras e funcionais. Tenho experiência no desenvolvimento de sites modernos e responsivos, utilizando tecnologias como HTML, CSS, JavaScript, e WordPress. Além disso, sou habilidoso em ferramentas de design como Photoshop e Figma, que me permitem oferecer uma combinação de estética e usabilidade, com foco na experiência do usuário.
+      </h3>
+    </div>
+    <div>
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.68/build/spline-viewer.js"></script>
+      <spline-viewer loading-anim-type="spinner-small-light" url="https://prod.spline.design/sBXVeU1vB13CFw8e/scene.splinecode"></spline-viewer>
+    </div>
+  </div>
+
+  <div id="linha" class="bg-transparent text-center shadow-md w-full p-[6px]">
+    <h1 class="text-[#efefef]">Alguns de meus projetos!</h1>
+  </div>
+  <section class="grid grid-cols-2 place-items-center gap-2 mt-2">
+    <div>projeto1</div>
+    <div>projeto2</div>
+    <div>projeto3</div>
+    <div>projeto4</div>
+  </section>
+  
+  <!-- <script src="loading"></script> -->
+
 </body>
 </html>
