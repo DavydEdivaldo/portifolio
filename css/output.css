@@ -743,6 +743,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-\[35px\] {
+  margin-top: 35px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -842,20 +846,16 @@ video {
   display: none;
 }
 
-.h-\[2px\] {
-  height: 2px;
-}
-
 .h-auto {
   height: auto;
 }
 
-.h-\[10px\] {
-  height: 10px;
-}
-
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-\[450px\] {
+  width: 450px;
 }
 
 .w-\[60\%\] {
@@ -872,6 +872,11 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full {
@@ -1844,11 +1849,6 @@ video {
   border-style: none;
 }
 
-.bg-\[\#20082a\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(32 8 42 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
@@ -1968,14 +1968,6 @@ video {
      object-fit: scale-down;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-\[6\] {
-  padding: 6;
-}
-
 .p-\[6px\] {
   padding: 6px;
 }
@@ -2055,6 +2047,10 @@ video {
   font-size: 15px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2131,9 +2127,19 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
+.text-\[\#811dac\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 29 172 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#e8e8e8\] {
   --tw-text-opacity: 1;
   color: rgb(232 232 232 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#efefef\] {
+  --tw-text-opacity: 1;
+  color: rgb(239 239 239 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-500 {
@@ -2144,15 +2150,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#efefef\] {
-  --tw-text-opacity: 1;
-  color: rgb(239 239 239 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2541,8 +2538,8 @@ video {
   font-style: normal;
 }
 
-.prata-regular {
-  font-family: "Prata", serif;
+.poppins-regular {
+  font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -2551,6 +2548,7 @@ video {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html, body{
@@ -2560,10 +2558,6 @@ html, body{
 .fonte-perso{
   font-family: 'Danymeka', Times, serif;
   font-size: 5rem;
-}
-
-.font-all-perso{
-  font-family: 'Prata', Times;
 }
 
 header{

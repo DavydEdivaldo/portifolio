@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
     --text-color-main: #efefef;
@@ -12,16 +13,18 @@
     font-weight: normal;
     font-style: normal;
 }
-.prata-regular {
-  font-family: "Prata", serif;
+.poppins-regular {
+  font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
 }
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 html, body{
     background-color: #170525;
@@ -30,9 +33,7 @@ html, body{
     font-family: 'Danymeka', Times, serif;
     font-size: 5rem;
 }
-.font-all-perso{
-  font-family: 'Prata', Times;
-}
+
 header{
     background: rgba(0, 0, 0, 0.08);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
